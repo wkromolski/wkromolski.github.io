@@ -1,6 +1,6 @@
-Triangles: 13.000
+Triangles: 7,700
 
-Materials: 6 (A bit much, I was testing UDIMs)
+Materials: 1
 
 Texture Size: 2048 x 2048
 

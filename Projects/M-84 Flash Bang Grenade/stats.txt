@@ -1,0 +1,13 @@
+Triangles: 13.000
+
+Materials: 6 (A bit much, I was testing UDIMs)
+
+Texture Size: 2048 x 2048
+
+Texel Density: 
+
+Workflow: 
+
+Target Engine: 
+
+Collaborators:

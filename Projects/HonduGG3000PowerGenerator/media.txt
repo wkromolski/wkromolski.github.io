@@ -12,3 +12,6 @@ GeneratorBackShot.png // wireframe1.png
 
 tbrender_Camera 1.mp4
 360 video
+
+UV.png
+UVs

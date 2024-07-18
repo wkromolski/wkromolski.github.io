@@ -2,7 +2,7 @@
 Low Poly Modelling
 High Poly Modelling
 Hard Surface Modeling
-UV-Unwrapping
+UV Unwrapping
 Texturing
 Texture Baking
 Rendering

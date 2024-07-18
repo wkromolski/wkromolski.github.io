@@ -4,6 +4,6 @@ Project Description
 ---
 3ds Max, Blender, Substance 3D Painter, Marmoset Toolbag
 ---
-https://drive.google.com/file/d/1flLEj-t41h8MBnEpp-whKV5esdnjqbmg/view?usp=sharing
+https://raw.githubusercontent.com/wkromolski/wkromolski.github.io/main/Projects/HonduGG3000PowerGenerator/main.png
 ---
 HonduGG3000PowerGenerator.html

@@ -1,3 +1,4 @@
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sodales justo vitae lacinia ornare. Pellentesque commodo mollis velit, finibus malesuada elit bibendum ut. Mauris sit amet nisi ante. Ut commodo auctor lorem id elementum. Ut at arcu congue, dictum est a, egestas neque. Aenean ipsum ipsum, elementum sit amet vehicula eu, congue sit amet risus. Aliquam a sem ac eros feugiat blandit vestibulum non diam.
-
-Pellentesque blandit leo nec tincidunt consectetur. Suspendisse auctor eu justo a vestibulum. Suspendisse bibendum, lacus id mattis finibus, turpis neque tempus arcu, at consectetur diam tellus in odio. Cras eu dolor laoreet ante dignissim sagittis malesuada vitae diam. Duis facilisis auctor quam eu porttitor. Pellentesque dictum dapibus nisi mollis hendrerit. Suspendisse at ante accumsan, venenatis diam eu, consectetur massa. Etiam non nisl in massa suscipit dignissim quis vitae mauris.
+I’m a 2nd-year student of Game Development at Collegium Da Vinci University in Poznań.
+The visual aspect of games has always been what I paid attention to so at some point in my life I decided to follow the path of a 3D artist focused on hardsuface modelling.
+I actively participate in the development of university game related projects that are part of classes, always trying to do my best.
+I am a responsible and conscientious person, as well as full of desire to develop and learn new things. I am distinguished by self-reliance and assertiveness, I always try to think critically and learn from my mistakes.

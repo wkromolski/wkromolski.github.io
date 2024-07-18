@@ -2,17 +2,17 @@
 # When you add one then productions.js will automatically add it after saving
 # Format: Title, Company, Time, Thumbnail URL, Description 
 ---
-3D Artist
+3D Artist | Dante's Rumba
 Collegium Da Vinci
 2nd year
-1.png
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sodales justo vitae lacinia ornare. Pellentesque commodo mollis velit, finibus malesuada elit bibendum ut. Mauris sit amet nisi ante. Ut commodo auctor lorem id elementum. Ut at arcu congue, dictum est a, egestas neque. Aenean ipsum ipsum, elementum sit amet vehicula eu, congue sit amet risus. Aliquam a sem ac eros feugiat blandit vestibulum non diam.
+https://raw.githubusercontent.com/wkromolski/wkromolski.github.io/main/Resources/ProductionExperienceImages/DantesRumba_01.png
+4 people’s academic project. I was responsible for all models, look of game levels, particle systems and VFXs. There are plans to continue developing the game after passing the course 
 ---
-Role
-Company
-Date (i.e 2020-present or 2016-2023)
+Programmer, UI | Wild West Runner
+Collegium Da Vinci
+1st year
 https://productionimage.jpg 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sodales justo vitae lacinia ornare. Pellentesque commodo mollis velit, finibus malesuada elit bibendum ut. Mauris sit amet nisi ante. Ut commodo auctor lorem id elementum. Ut at arcu congue, dictum est a, egestas neque. Aenean ipsum ipsum, elementum sit amet vehicula eu, congue sit amet risus. Aliquam a sem ac eros feugiat blandit vestibulum non diam.
+4 people’s academic project. I was responsible for programming the generation of the map, obstacles and objects, the character's life system, as well as part of the UI.
 ---
 Role
 Company

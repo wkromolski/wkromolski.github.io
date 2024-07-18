@@ -19,7 +19,7 @@
 }
 
 .production-subpanel img {
-    width: 200px; /* Width of the thumbnail */
+    width: 400px; /* Width of the thumbnail */
     height: auto; /* Height adjusts based on aspect ratio */
     object-fit: cover; /* Ensures cover fit for the image */
     border-radius: 5px; /* Rounded corners */

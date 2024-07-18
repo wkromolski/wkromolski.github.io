@@ -6,7 +6,7 @@
 Collegium Da Vinci University
 2nd year
 https://raw.githubusercontent.com/wkromolski/wkromolski.github.io/main/Resources/ProductionExperienceImages/DantesRumba_01.png
-4 people’s academic project. I was responsible for all models, look of game levels, particle systems and VFXs. There are plans to continue developing the game after passing the course 
+4 people’s academic project, currently I'm working on. I'm responsible for all models, look of game levels, animations, particle systems and VFXs. There are plans to continue developing the game after passing the course 
 ---
 Programmer, UI | Wild West Runner
 Collegium Da Vinci University

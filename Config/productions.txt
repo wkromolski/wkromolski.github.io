@@ -3,25 +3,20 @@
 # Format: Title, Company, Time, Thumbnail URL, Description 
 ---
 3D Artist | Dante's Rumba
-Collegium Da Vinci
+Collegium Da Vinci University
 2nd year
 https://raw.githubusercontent.com/wkromolski/wkromolski.github.io/main/Resources/ProductionExperienceImages/DantesRumba_01.png
 4 people’s academic project. I was responsible for all models, look of game levels, particle systems and VFXs. There are plans to continue developing the game after passing the course 
 ---
 Programmer, UI | Wild West Runner
-Collegium Da Vinci
+Collegium Da Vinci University
 1st year
-https://productionimage.jpg 
-4 people’s academic project. I was responsible for programming the generation of the map, obstacles and objects, the character's life system, as well as part of the UI.
+https://raw.githubusercontent.com/wkromolski/wkromolski.github.io/main/Resources/ProductionExperienceImages/WildWestRunner_01.png
+Simple endless runner game created by 4 people. I was responsible for programming the generation of the map, obstacles and objects, the character's life system, as well as part of the UI.
 ---
-Role
-Company
-Date (i.e 2020-present or 2016-2023)
-https://productionimage.jpg 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sodales justo vitae lacinia ornare. Pellentesque commodo mollis velit, finibus malesuada elit bibendum ut. Mauris sit amet nisi ante. Ut commodo auctor lorem id elementum. Ut at arcu congue, dictum est a, egestas neque. Aenean ipsum ipsum, elementum sit amet vehicula eu, congue sit amet risus. Aliquam a sem ac eros feugiat blandit vestibulum non diam.
+Audio implementation, UI | Kill The Customer Project
+Collegium Da Vinci University
+1st year
+https://raw.githubusercontent.com/wkromolski/wkromolski.github.io/main/Resources/ProductionExperienceImages/KillTheCustomerProject_01.png
+An academic point-and-click game project created by 4 people. It was the first project I’ve ever worked on. I was responsible for UI and implementation of audio.
 ---
-Role
-Company
-Date (i.e 2020-present or 2016-2023)
-https://productionimage.jpg 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sodales justo vitae lacinia ornare. Pellentesque commodo mollis velit, finibus malesuada elit bibendum ut. Mauris sit amet nisi ante. Ut commodo auctor lorem id elementum. Ut at arcu congue, dictum est a, egestas neque. Aenean ipsum ipsum, elementum sit amet vehicula eu, congue sit amet risus. Aliquam a sem ac eros feugiat blandit vestibulum non diam.

@@ -1,0 +1,11 @@
+Rune Rock
+---
+Small academic project which I was doing in 3D classes. 
+Our topic was to make Magic Rock/Rune Rock with our interpretation and idea. 
+From the start I wanted to make it stylized and present it in the environment created by myself. Big thanks to https://www.artstation.com/akbutea for an incredible tutorial on how to make awesome stylized grass. RuneRock was made in ZBrush | Smaller rocks, tree, grass and flowers in Blender | Textured in Substance Painter | Rendered in Unreal Engine 5
+---
+ZBrush, Blender, Substance 3D Painter, Unreal Engine 5
+---
+https://raw.githubusercontent.com/wkromolski/wkromolski.github.io/main/Projects/Rune%20Rock/main.jpeg
+---
+RuneRock.html

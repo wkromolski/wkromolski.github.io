@@ -1,0 +1,9 @@
+M-84 Flash Bang Grenade
+---
+Process of learning the right game asset workflow. Modeled, unwrapped, rendered (Eevee) in Blender, textured in Substance Painter.
+---
+Blender, Substance 3D Painter
+---
+https://github.com/wkromolski/wkromolski.github.io/blob/main/Projects/M-84%20Flash%20Bang%20Grenade/main.png?raw=true
+---
+M-84 Flash Bang Grenade.html

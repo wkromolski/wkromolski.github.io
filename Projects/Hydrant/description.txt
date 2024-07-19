@@ -1,4 +1,4 @@
-Rune Rock
+Hydrant
 ---
 Another project which was created for 3D classes. Hydrant modelled and unwrapped in 3ds Max, textured in Substance Painter, rendered in Substance Stager
 ---

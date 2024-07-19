@@ -1,4 +1,4 @@
-Triangles: 7,700
+Triangles: 12.000
 
 Materials: 1
 

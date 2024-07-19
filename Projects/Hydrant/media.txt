@@ -1,9 +1,9 @@
-RuneRock_render.png
+1.png
 
-runeshot.mp4
-Turn sound on
+2.png
 
-high-low.png
+3.png
+Low poly wireframe & High poly
 
-ref.png
-References/moodboard
+uv template.png
+UV

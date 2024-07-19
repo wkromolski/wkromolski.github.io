@@ -1,11 +1,9 @@
 Rune Rock
 ---
-Small academic project which I was doing in 3D classes. 
-Our topic was to make Magic Rock/Rune Rock with our interpretation and idea. 
-From the start I wanted to make it stylized and present it in the environment created by myself. Big thanks to https://www.artstation.com/akbutea for an incredible tutorial on how to make awesome stylized grass. RuneRock was made in ZBrush | Smaller rocks, tree, grass and flowers in Blender | Textured in Substance Painter | Rendered in Unreal Engine 5
+Another project which was created for 3D classes. Hydrant modelled and unwrapped in 3ds Max, textured in Substance Painter, rendered in Substance Stager
 ---
-ZBrush, Blender, Substance 3D Painter, Unreal Engine 5
+3ds Max, Substance 3D Painter, Substance 3D Stager
 ---
-https://raw.githubusercontent.com/wkromolski/wkromolski.github.io/main/Projects/Rune%20Rock/main.jpeg
+https://raw.githubusercontent.com/wkromolski/wkromolski.github.io/main/Projects/Hydrant/main.png
 ---
-RuneRock.html
+Hydrant.html

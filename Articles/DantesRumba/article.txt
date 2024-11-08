@@ -8,7 +8,7 @@ https://raw.githubusercontent.com/wkromolski/wkromolski.github.io/261b91815da9bf
 <br>
 Genre: Puzzle, Casual Game
 <br>
-Platforms: Nintendo Switch
+Platforms: PC, Nintendo Switch
 <br>
 No of players: Single Player
 <br>
@@ -55,6 +55,9 @@ how, in the depths of Hell, Virgil’s soul found itself trapped in a broken
 robot and uncover what Faust truly seeks to achieve.
 
 https://raw.githubusercontent.com/wkromolski/wkromolski.github.io/refs/heads/main/Articles/DantesRumba/rumba3.png
+### Art by Julia "Gesal" Grabska
+
+<br>
 
 ## My role
 
@@ -71,9 +74,29 @@ My main reference was the game Tools Up!, however, while maintaining own graphic
 https://raw.githubusercontent.com/wkromolski/wkromolski.github.io/refs/heads/main/Articles/DantesRumba/toolsup.jpg
 ### Image copyright belongs to Untold Tales, Gamersky Games
 
+https://raw.githubusercontent.com/wkromolski/wkromolski.github.io/refs/heads/main/Articles/DantesRumba/circle2.png
+### One of the levels of Circle 2 in Dante’s Rumba (Work in Progress)
+
 <br>
 
+<b> Some of the 3D models I’ve created: </b>
 
+https://raw.githubusercontent.com/wkromolski/wkromolski.github.io/refs/heads/main/Articles/DantesRumba/1.png
+https://raw.githubusercontent.com/wkromolski/wkromolski.github.io/refs/heads/main/Articles/DantesRumba/2.png
+https://raw.githubusercontent.com/wkromolski/wkromolski.github.io/refs/heads/main/Articles/DantesRumba/3.png
+https://raw.githubusercontent.com/wkromolski/wkromolski.github.io/refs/heads/main/Articles/DantesRumba/4.png
+https://raw.githubusercontent.com/wkromolski/wkromolski.github.io/refs/heads/main/Articles/DantesRumba/5.png
+https://raw.githubusercontent.com/wkromolski/wkromolski.github.io/refs/heads/main/Articles/DantesRumba/6.png
+https://raw.githubusercontent.com/wkromolski/wkromolski.github.io/refs/heads/main/Articles/DantesRumba/7.png
+
+
+
+
+
+
+Furthermore I created needed particle effects, shader graphs and idle animations.
+
+https://github.dev/wkromolski/wkromolski.github.io/blob/main/Articles/DantesRumba/fountain.mp4
 
 
 

@@ -2,8 +2,8 @@ Dante's Rumba (Work in Progress)
 ---
 3D Artist
 ---
+https://raw.githubusercontent.com/wkromolski/wkromolski.github.io/261b91815da9bfb82bf9999d25bba893c6b2a177/Articles/DantesRumba/DantesRumba_logo.png
 
-<br>
 <b> Project Info </b>
 <br>
 Genre: Puzzle, Casual Game
@@ -16,8 +16,8 @@ Engine: Unity
 <br>
 <br>
 
-## HELL IS IMPURE!
-<br>
+## HELL IS IMPURE! - about the project :)
+
 Literally. It's such a mess that the most
 famous tour guides, Dante and Virgil, have no
 choice but to strike a pact with this new guy,
@@ -33,7 +33,9 @@ But is it really the only afterworld that needs
 cleaning? Let’s make Hell pure again and see
 what other realms await!
 
-https://raw.githubusercontent.com/wkromolski/wkromolski.github.io/261b91815da9bfb82bf9999d25bba893c6b2a177/Articles/DantesRumba/DantesRumba_logo.png
+https://raw.githubusercontent.com/wkromolski/wkromolski.github.io/44ba81d6ddadaebd7973eb4671cc90550a868b3f/Articles/DantesRumba/rumbatrailer.mp4
+
+https://github.dev/wkromolski/wkromolski.github.io/blob/main/Articles/DantesRumba/rumbatrailer.mp4
 
 It all began with a few words: "Devilish Roomba" and
 "Divine Comedy".
@@ -51,19 +53,25 @@ reveals hidden richness in the overall experience. You might discover
 how, in the depths of Hell, Virgil’s soul found itself trapped in a broken
 robot and uncover what Faust truly seeks to achieve.
 
-https://raw.githubusercontent.com/wkromolski/wkromolski.github.io/44ba81d6ddadaebd7973eb4671cc90550a868b3f/Articles/DantesRumba/rumba1.png
+https://raw.githubusercontent.com/wkromolski/wkromolski.github.io/refs/heads/main/Articles/DantesRumba/rumba3.png
+
+## My role
 
 Initially production started as a four-person project for academic course purposes. 
 As time passed, it became a personal activity. 
 We decided to finish it after completing the course and try to publish it. 
-Currently, we are working on Dante’s Rumba as a team of 6 people.
+Currently, we are working on Dante’s Rumba as a team of six people.
 
 <br>
 
 At first, my main focus for this project was creating all the models, as visually coherent as possible, forming the basis for a simple, stylized art style.
 My main reference was the game Tools Up!, however, while maintaining own graphic style.
 
-link
+https://raw.githubusercontent.com/wkromolski/wkromolski.github.io/refs/heads/main/Articles/DantesRumba/toolsup.jpg
+### Image copyright belongs to Untold Tales, Gamersky Games
+
+<br>
+
 
 
 

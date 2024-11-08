@@ -85,7 +85,9 @@ document.addEventListener("DOMContentLoaded", async function() {
         const formattedContent = paragraphs.map(paragraph => {
             const lines = paragraph.split('\n').map(line => line.trim());
             let formattedParagraph = lines.map(line => {
-                if (line.startsWith('## ')) {
+                if (line.startsWith('### ')) {
+                    return `<h3>${line.slice(4)}</h3>`;
+                } else if (line.startsWith('## ')) {
                     return `<h2>${line.slice(3)}</h2>`;
                 } else if (line.startsWith('# ')) {
                     return `<h1>${line.slice(2)}</h1>`;

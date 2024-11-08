@@ -104,6 +104,12 @@
     border-bottom: none; /* Remove underline */
     font-size: 1.5rem;
   }
+
+  .article-content h3 {
+    color: grey; /* Custom header color */
+    border-bottom: none; /* Remove underline */
+    font-size: 0.7rem;
+  }
   
   .article-content img,
   .article-content video {

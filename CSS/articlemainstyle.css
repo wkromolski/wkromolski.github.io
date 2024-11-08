@@ -53,6 +53,16 @@ h2 {
   user-select: none;
 }
 
+h3 {
+  font-size: 4px;
+  margin: 0;
+  color: grey;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  -webkit-user-select: none; /* Safari */
+  user-select: none;
+}
+
 .main-container {
   display: flex;
   flex-direction: column;
@@ -114,6 +124,11 @@ h2 {
       font-size: 14px; /* Adjust font size for mobile */
       text-align: center; /* Center align text for better readability on mobile */
   }
+
+  h3 {
+    font-size: 4px; /* Adjust font size for mobile */
+    text-align: center; /* Center align text for better readability on mobile */
+}
 
   .main-container {
       overflow-y: auto; /* Ensure main container scrolls if necessary */

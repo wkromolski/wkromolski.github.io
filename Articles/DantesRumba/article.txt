@@ -1,0 +1,32 @@
+Dante's Rumba
+---
+3D Artist
+---
+<b> Engine used: Unity </b>
+
+## HELL IS IMPURE!
+<br>
+Literally. It's such a mess that the most
+famous tour guides, Dante and Virgil, have no
+choice but to strike a pact with this new guy,
+Faust.
+In this quirky game, you don’t battle demons.
+Instead, you show mercy to the poor damned
+souls by ensuring they can be punished in a
+clean environment! Program the route for the
+Rumba to tidy up all the dirt, making sure it
+doesn’t fall into the abyss or get stuck under
+the furniture.
+But is it really the only afterworld that needs
+cleaning? Let’s make Hell pure again and see
+what other realms await!
+
+https://raw.githubusercontent.com/wkromolski/wkromolski.github.io/main/Resources/ProductionExperienceImages/DantesRumba_01.png
+
+<br>
+
+<b> 4 people’s academic project, currently I'm working on. 
+I'm responsible for all models, look of game levels, animations, particle systems and VFXs. 
+There are plans to continue developing the game after passing the course. </b>
+
+

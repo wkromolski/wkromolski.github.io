@@ -2,21 +2,10 @@
 # When you add one then productions.js will automatically add it after saving
 # Format: Title, Company, Time, Thumbnail URL, Description 
 ---
-3D Artist | Dante's Rumba
-Collegium Da Vinci University
-2nd year
-https://raw.githubusercontent.com/wkromolski/wkromolski.github.io/main/Resources/ProductionExperienceImages/DantesRumba_01.png
-4 people’s academic project, currently I'm working on. I'm responsible for all models, look of game levels, animations, particle systems and VFXs. There are plans to continue developing the game after passing the course 
+3D Artist (Intern)
+eNStudios
+September 2024 - present
+https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSWc2lZ-sPWABnNKkW10JzqPYl9DK-7On6mGg&s
+...
 ---
-Programmer, UI | Wild West Runner
-Collegium Da Vinci University
-1st year
-https://raw.githubusercontent.com/wkromolski/wkromolski.github.io/main/Resources/ProductionExperienceImages/WildWestRunner_01.png
-Simple endless runner game created by 4 people. I was responsible for programming the generation of the map, obstacles and objects, the character's life system, as well as part of the UI.
----
-Audio implementation, UI | Kill The Customer Project
-Collegium Da Vinci University
-1st year
-https://raw.githubusercontent.com/wkromolski/wkromolski.github.io/main/Resources/ProductionExperienceImages/KillTheCustomerProject_01.png
-An academic point-and-click game project created by 4 people. It was the first project I’ve ever worked on. I was responsible for UI and implementation of audio.
----
+

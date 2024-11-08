@@ -1,0 +1,9 @@
+Wild West Runner
+---
+Programmer, UI
+---
+
+https://raw.githubusercontent.com/wkromolski/wkromolski.github.io/main/Resources/ProductionExperienceImages/WildWestRunner_01.png
+
+Simple endless runner game created by 4 people. 
+I was responsible for programming the generation of the map, obstacles and objects, the character's life system, as well as part of the UI.

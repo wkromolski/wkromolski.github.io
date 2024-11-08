@@ -1,8 +1,20 @@
-Dante's Rumba
+Dante's Rumba (Work in Progress)
 ---
 3D Artist
 ---
-<b> Engine used: Unity </b>
+
+<br>
+<b> Project Info </b>
+<br>
+Genre: Puzzle, Casual Game
+<br>
+Platforms: Nintendo Switch
+<br>
+No of players: Single Player
+<br>
+Engine: Unity 
+<br>
+<br>
 
 ## HELL IS IMPURE!
 <br>
@@ -21,12 +33,39 @@ But is it really the only afterworld that needs
 cleaning? Let’s make Hell pure again and see
 what other realms await!
 
-https://raw.githubusercontent.com/wkromolski/wkromolski.github.io/main/Resources/ProductionExperienceImages/DantesRumba_01.png
+https://raw.githubusercontent.com/wkromolski/wkromolski.github.io/261b91815da9bfb82bf9999d25bba893c6b2a177/Articles/DantesRumba/DantesRumba_logo.png
+
+It all began with a few words: "Devilish Roomba" and
+"Divine Comedy".
+And thus, the game unfolds in the Nine Circles of Hell,
+drawing inspiration from Dante Alighieri’s vision but
+infused with a modern touch.
+
+The player explores these circles progressively, completing levels along
+the way. You assume the role of Faust, one of the newest damned souls. In
+addition to planning routes for the Rumba, you embark on a personal
+journey, the profundity of which is determined by your choices. While the
+main game can be completed without delving into Faust's story, engaging
+with the dialogues of the damned souls encountered along the way
+reveals hidden richness in the overall experience. You might discover
+how, in the depths of Hell, Virgil’s soul found itself trapped in a broken
+robot and uncover what Faust truly seeks to achieve.
+
+
+
+Initially production started as a four-person project for academic course purposes. 
+As time passed, it became a personal activity. 
+We decided to finish it after completing the course and try to publish it. 
+Currently, we are working on Dante’s Rumba as a team of 6 people.
 
 <br>
 
-<b> 4 people’s academic project, currently I'm working on. 
-I'm responsible for all models, look of game levels, animations, particle systems and VFXs. 
-There are plans to continue developing the game after passing the course. </b>
+At first, my main focus for this project was creating all the models, as visually coherent as possible, forming the basis for a simple, stylized art style.
+My main reference was the game Tools Up!, however, while maintaining own graphic style.
+
+link
+
+
+
 
 

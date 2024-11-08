@@ -2,7 +2,10 @@ Dante's Rumba (Work in Progress)
 ---
 3D Artist
 ---
-https://raw.githubusercontent.com/wkromolski/wkromolski.github.io/261b91815da9bfb82bf9999d25bba893c6b2a177/Articles/DantesRumba/DantesRumba_logo.png
+
+[![image](https://raw.githubusercontent.com/wkromolski/wkromolski.github.io/261b91815da9bfb82bf9999d25bba893c6b2a177/Articles/DantesRumba/DantesRumba_logo.png)](https://lowcygier.pl)
+
+
 
 <b> Project Info </b>
 <br>
@@ -53,6 +56,7 @@ with the dialogues of the damned souls encountered along the way
 reveals hidden richness in the overall experience. You might discover
 how, in the depths of Hell, Virgil’s soul found itself trapped in a broken
 robot and uncover what Faust truly seeks to achieve.
+
 
 https://raw.githubusercontent.com/wkromolski/wkromolski.github.io/refs/heads/main/Articles/DantesRumba/rumba3.png
 ### Art by Julia "Gesal" Grabska

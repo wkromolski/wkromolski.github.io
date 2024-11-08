@@ -79,44 +79,49 @@ document.addEventListener("DOMContentLoaded", async function() {
         return panel;
     };
 
-    // Function to embed media URLs in the content and convert new lines to paragraphs and headers
     const formatContent = (content) => {
         const paragraphs = content.split(/\n\s*\n/).map(paragraph => paragraph.trim());
         const formattedContent = paragraphs.map(paragraph => {
             const lines = paragraph.split('\n').map(line => line.trim());
-            let formattedParagraph = lines.map(line => {
-                if (line.startsWith('### ')) {
+    
+            let formattedParagraph = lines.map((line, index) => {
+                // Linked image using markdown-style syntax
+                if (line.match(/\[!\[.*\]\((.*)\)\]\((.*)\)/)) {
+                    const [, imgUrl, linkUrl] = line.match(/\[!\[.*\]\((.*)\)\]\((.*)\)/);
+                    return `<a href="${linkUrl}" target="_blank" rel="noopener noreferrer"><img src="${imgUrl}" alt="Linked Image" /></a>`;
+                }
+                // Plain image URL
+                else if (line.match(/\.(gif|jpg|jpeg|png)$/)) {
+                    return `<img src="${line}" alt="Embedded Image" />`;
+                }
+                // Video URL (e.g., MP4 format)
+                else if (line.match(/\.(mp4)$/)) {
+                    return `<video controls><source src="${line}" type="video/mp4"></video>`;
+                }
+                // YouTube or external link (for general hyperlinks)
+                else if (line.match(/(https?:\/\/[^\s]+)/g)) {
+                    return `<a href="${line}" target="_blank" rel="noopener noreferrer">${line}</a>`;
+                }
+                // Headers and other text processing
+                else if (line.startsWith('### ')) {
                     return `<h3>${line.slice(4)}</h3>`;
                 } else if (line.startsWith('## ')) {
                     return `<h2>${line.slice(3)}</h2>`;
                 } else if (line.startsWith('# ')) {
                     return `<h1>${line.slice(2)}</h1>`;
-                } else if (line.match(/(https?:\/\/[^\s]+)/g)) {
-                    return line.replace(/(https?:\/\/[^\s]+)/g, (url) => {
-                        if (url.match(/\.(mp4)$/)) {
-                            return `<video controls><source src="${url}" type="video/mp4"></video>`;
-                        } else if (url.match(/\.(gif|jpg|jpeg|png)$/)) {
-                            return `<img src="${url}" alt="Embedded Image" />`;
-                        } else if (url.match(/(youtube\.com|youtu\.be)/)) {
-                            let videoId = url.split('v=')[1] || url.split('youtu.be/')[1];
-                            const ampersandPosition = videoId.indexOf('&');
-                            if (ampersandPosition !== -1) {
-                                videoId = videoId.substring(0, ampersandPosition);
-                            }
-                            return `<iframe width="560" height="315" src="https://www.youtube.com/embed/${videoId}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`;
-                        } else {
-                            return `<a href="${url}" target="_blank">${url}</a>`;
-                        }
-                    });
                 } else {
                     return line;
                 }
-            }).join(' '); // Use a space instead of <br>
+            }).join(' ');
+    
             return `<p>${formattedParagraph}</p>`;
         }).join('');
-
+    
         return formattedContent;
     };
+    
+    
+    
 
     // Function to calculate reading time
     const calculateReadingTime = (content) => {
@@ -126,9 +131,9 @@ document.addEventListener("DOMContentLoaded", async function() {
         return readingTime;
     };
 
-    // Function to display a single article
-    const displayArticle = (title, content) => {
-        const formattedContent = formatContent(content);
+    // Function to display a single article 
+    const displayArticle = (title, content, grid) => {
+        const formattedContent = formatContent(content, grid);
         rightColumn.innerHTML = `
             <div class="article-content">
                 <h1>${title}</h1>

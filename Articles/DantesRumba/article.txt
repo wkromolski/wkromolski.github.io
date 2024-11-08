@@ -33,10 +33,10 @@ But is it really the only afterworld that needs
 cleaning? Let’s make Hell pure again and see
 what other realms await!
 
-https://raw.githubusercontent.com/wkromolski/wkromolski.github.io/44ba81d6ddadaebd7973eb4671cc90550a868b3f/Articles/DantesRumba/rumbatrailer.mp4
+https://gitlab.com/wojtekkro/test1/-/raw/main/rumbatrailer.mp4
+### Dante's Rumba Gameplay Trailer 
 
-https://github.dev/wkromolski/wkromolski.github.io/blob/main/Articles/DantesRumba/rumbatrailer.mp4
-
+<br>
 
 It all began with a few words: "Devilish Roomba" and
 "Divine Comedy".
@@ -96,8 +96,7 @@ https://raw.githubusercontent.com/wkromolski/wkromolski.github.io/refs/heads/mai
 
 Furthermore I created needed particle effects, shader graphs and idle animations.
 
-https://github.dev/wkromolski/wkromolski.github.io/blob/main/Articles/DantesRumba/fountain.mp4
-
+https://gitlab.com/wojtekkro/test1/-/raw/main/fountain.mp4
 
 
 

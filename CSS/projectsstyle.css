@@ -51,7 +51,7 @@ h3 {
 
 .media-container {
   position: relative;
-  flex: 0 0 80%; /* Take up 80% of the width */
+  flex: 0 0 70%; /* Take up 80% of the width */
   background-color: #151515;
   display: flex;
   flex-direction: column;
@@ -88,7 +88,7 @@ h3 {
 
 /* Info Container Styling */
 .info-container {
-  flex: 0 0 20%; /* Take up 20% of the width */
+  flex: 0 0 30%; /* Take up 20% of the width */
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -97,6 +97,7 @@ h3 {
   overflow: hidden;
   overflow: auto;
 }
+
 
 /* Top Container Styling */
 .top-container {
@@ -111,7 +112,7 @@ h3 {
 }
 
 .project-description-container h1 {
-  font-size: 16px;
+  font-size: 20px;
   margin: 0;
   margin-bottom: 5px;
   color: white;
@@ -122,8 +123,8 @@ h3 {
 }
 
 .project-description-container h2 {
-  font-size: 10px;
-  color: white;
+  font-size: 16px;
+  color: #edb049;
 }
 
 .project-description-container p {

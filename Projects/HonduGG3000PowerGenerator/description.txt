@@ -1,6 +1,7 @@
 Hondu GG3000 Power Generator
 ---
-That was very important project for me, because I spent a lot of time on improving my workflow and tests new things like Blender remesher for high poly. Additionaly, it was my testing project for using UDIMs workflow.
+That was very important project for me, because I spent a lot of time on improving my workflow and tests new things like Blender remesher for high poly. 
+Additionaly, it was my testing project for using UDIMs workflow.
 ---
 3ds Max, Blender, Substance 3D Painter, Marmoset Toolbag
 ---

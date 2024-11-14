@@ -23,7 +23,7 @@
 }
 
 #next-project {
-  right: calc((100vw - 60%) / 2 + 15px); /* Adjust to the right within media-container */
+  right: calc((100vw - 40%) / 2 + 15px); /* Adjust to the right within media-container */
 }
 
 /* Responsive Design for Navigation Buttons */

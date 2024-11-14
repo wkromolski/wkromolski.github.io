@@ -19,13 +19,12 @@ document.addEventListener('DOMContentLoaded', () => {
             document.getElementById('project-title').textContent = title;
             document.title = title; // Set the document title as well
     
-            const descriptionContainer = document.getElementById('project-description');
-            const formattedDescription = convertUrlsToLinks(description);
+            // Convert markdown headings to HTML
+            const formattedDescription = convertUrlsToLinks(processHeadings(description));
     
             if (description.length > 420) {
                 const shortDescription = formattedDescription.substring(0, 420);
-                descriptionContainer.innerHTML = `${shortDescription}<span id="ellipsis">...</span><span id="full-description" style="display: none;">${formattedDescription.substring(420)}</span><br><span id="toggle-description">Read More</span>`;
-    
+                document.getElementById('project-description').innerHTML = `${shortDescription}<span id="ellipsis">...</span><span id="full-description" style="display: none;">${formattedDescription.substring(420)}</span><br><span id="toggle-description">Read More</span>`;
                 const toggleDescription = document.getElementById('toggle-description');
                 const fullDescription = document.getElementById('full-description');
                 const ellipsis = document.getElementById('ellipsis');
@@ -37,7 +36,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     toggleDescription.textContent = isFullVisible ? 'Read More' : 'Read Less';
                 });
             } else {
-                descriptionContainer.innerHTML = formattedDescription;
+                document.getElementById('project-description').innerHTML = formattedDescription;
             }
     
             renderTags(tags);
@@ -45,6 +44,23 @@ document.addEventListener('DOMContentLoaded', () => {
             console.error('Error loading project description:', error);
         }
     };
+    
+    // Function to process markdown-style headers
+    const processHeadings = (text) => {
+        return text.split('\n').map(line => {
+            if (line.startsWith('### ')) {
+                return `<h3>${line.slice(4)}</h3>`;
+            } else if (line.startsWith('## ')) {
+                return `<h2>${line.slice(3)}</h2>`;
+            } else if (line.startsWith('# ')) {
+                return `<h1>${line.slice(2)}</h1>`;
+            } else {
+                return line;
+            }
+        }).join(' ');
+        
+    };
+    
 
     const convertUrlsToLinks = (text) => {
         const urlPattern = /(\b(https?|ftp|file):\/\/[-A-Z0-9+&@#\/%?=~_|!:,.;]*[-A-Z0-9+&@#\/%=~_|])/gi;

@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
-    const thumbnailContainer = document.getElementById('thumbnail-container');
+    const thumbnailContainer = document.getElementById('thumbnail-containerA');
     const plusButton = document.getElementById('plus-button');
     const minusButton = document.getElementById('minus-button');
 

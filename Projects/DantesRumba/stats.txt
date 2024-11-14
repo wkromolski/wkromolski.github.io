@@ -1,0 +1,13 @@
+Triangles: 
+
+Materials: 
+
+Texture Size: 
+
+Texel Density: 
+
+Workflow: 
+
+Target Engine: 
+
+Collaborators: Sigma Skólska, Julia Grabska, Julia Sekretarczyk, Laura Robińska, Michał Szwec-Nadworny

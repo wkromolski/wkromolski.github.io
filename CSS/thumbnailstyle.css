@@ -7,6 +7,15 @@
   align-content: start; /* Ensure consistent vertical gaps */
 }
 
+#thumbnail-containerA {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); /* Ensure items fill the space */
+  gap: 5px; /* Consistent gap between items */
+  box-sizing: border-box;
+  width: 100%; /* Ensure it spans the full width */
+  align-content: start; /* Ensure consistent vertical gaps */
+}
+
 @keyframes slideInLeft {
   from {
     transform: translateX(-30px);
@@ -144,10 +153,28 @@
   .thumbnail {
     height: 200px;
   }
+
+  #thumbnail-containerA {
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Adjusted min-width */
+  }
+  .thumbnail {
+    height: 200px;
+  }
 }
 
 @media screen and (min-width: 375px) and (max-width: 667px) {
   #thumbnail-container {
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); /* Adjusted min-width */
+  }
+  .thumbnail {
+    height: 150px;
+  }
+  .thumbnail-title {
+    opacity: 0;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.75); /* Add this line */
+  }
+
+  #thumbnail-containerA {
     grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); /* Adjusted min-width */
   }
   .thumbnail {

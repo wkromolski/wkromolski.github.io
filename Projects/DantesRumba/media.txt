@@ -1,10 +1,9 @@
 https://github.com/wkromolski/wkromolski.github.io/raw/refs/heads/main/Articles/DantesRumba/rumbatrailer.mp4
 Dante's Rumba - Early Alpha Gameplay Trailer | Turn sound on
 
-https://raw.githubusercontent.com/wkromolski/wkromolski.github.io/refs/heads/main/Articles/DantesRumba/toolsup.jpg
-Image copyright belongs to Untold Tales, Gamersky Games
+https://raw.githubusercontent.com/wkromolski/wkromolski.github.io/refs/heads/main/Projects/DantesRumba/media/toolsup_ref.png
+Tools Up! was the main reference
 
-https://raw.githubusercontent.com/wkromolski/wkromolski.github.io/refs/heads/main/Articles/DantesRumba/circle2.png
-One of the levels of Circle 2 in Dante’s Rumba (Work in Progress)
+https://raw.githubusercontent.com/wkromolski/wkromolski.github.io/refs/heads/main/Projects/DantesRumba/media/models1.png
 
 https://gitlab.com/wojtekkro/test1/-/raw/main/fountain.mp4

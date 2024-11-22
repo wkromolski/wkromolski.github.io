@@ -33,8 +33,6 @@ Furthermore I created needed particle effects, shader graphs and idle animations
 <br>
 <br>
 <br>
-<br>
-<br>
 
 ## HELL IS IMPURE!
  - if you wanna read more about the project :)

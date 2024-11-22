@@ -4,7 +4,20 @@ Dante's Rumba - Early Alpha Gameplay Trailer | Turn sound on
 https://raw.githubusercontent.com/wkromolski/wkromolski.github.io/refs/heads/main/Projects/DantesRumba/media/toolsup_ref.png
 Tools Up! was the main reference
 
-https://raw.githubusercontent.com/wkromolski/wkromolski.github.io/refs/heads/main/Projects/DantesRumba/media/models1.png
+https://raw.githubusercontent.com/wkromolski/wkromolski.github.io/1c9be4cce19a78ed29136e2f06edcca6438c74bc/Projects/DantesRumba/media/models1.png
 Models #1
 
-https://gitlab.com/wojtekkro/test1/-/raw/main/fountain.mp4
+https://raw.githubusercontent.com/wkromolski/wkromolski.github.io/refs/heads/main/Projects/DantesRumba/media/models2.png
+Models #2
+
+https://raw.githubusercontent.com/wkromolski/wkromolski.github.io/refs/heads/main/Projects/DantesRumba/media/models3.png
+Models #3
+
+https://raw.githubusercontent.com/wkromolski/wkromolski.github.io/refs/heads/main/Projects/DantesRumba/media/models4.png
+Models #4
+
+https://github.com/wkromolski/wkromolski.github.io/raw/refs/heads/main/Projects/DantesRumba/media/FountainPres.mp4
+Fountain was made in Unity Visual Effect Graph
+
+https://github.com/wkromolski/wkromolski.github.io/raw/refs/heads/main/Projects/DantesRumba/media/FlamePres.mp4
+Flame was made in Unity Particle System

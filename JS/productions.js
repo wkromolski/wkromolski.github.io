@@ -1,5 +1,4 @@
-// Function to create a production card
-function createProductionCard(title, company, time, thumbnail, description) {
+function createProductionCard(title, company, time, thumbnail, description, descriptionExtra) {
     const card = document.createElement("div");
     card.classList.add("production-subpanel");
 
@@ -31,7 +30,13 @@ function createProductionCard(title, company, time, thumbnail, description) {
     descDiv.classList.add("production-description");
     const descElem = document.createElement("p");
     descElem.textContent = description;
+
+    // Create an additional paragraph for descriptionExtra
+    const descExtraElem = document.createElement("p");
+    descExtraElem.textContent = descriptionExtra;
+
     descDiv.appendChild(descElem);
+    descDiv.appendChild(descExtraElem);
 
     // Create a container for the details and description
     const contentContainer = document.createElement("div");
@@ -66,8 +71,8 @@ document.addEventListener("DOMContentLoaded", async () => {
 
         productions.forEach((prod, index) => {
             const lines = prod.split('\n').map(line => line.trim()).filter(line => line && !line.startsWith('#'));
-            if (lines.length === 5) {
-                const card = createProductionCard(lines[0], lines[1], lines[2], lines[3], lines[4]);
+            if (lines.length === 6) {
+                const card = createProductionCard(lines[0], lines[1], lines[2], lines[3], lines[4], lines[5]);
                 fragment.appendChild(card);
             } else {
                 console.error(`Invalid production data format at index ${index}:`, lines);

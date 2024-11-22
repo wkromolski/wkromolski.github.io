@@ -29,9 +29,59 @@ My main reference was the game Tools Up!, however, while maintaining own graphic
 <br>
 
 Furthermore I created needed particle effects, shader graphs and idle animations.
+
+<br>
+<br>
+<br>
+<br>
+<br>
+
+## HELL IS IMPURE!
+ - if you wanna read more about the project :)
+
+<br>
+<br>
+
+Literally. It's such a mess that the most
+famous tour guides, Dante and Virgil, have no
+choice but to strike a pact with this new guy,
+Faust.
+In this quirky game, you don’t battle demons.
+Instead, you show mercy to the poor damned
+souls by ensuring they can be punished in a
+clean environment! Program the route for the
+Rumba to tidy up all the dirt, making sure it
+doesn’t fall into the abyss or get stuck under
+the furniture.
+But is it really the only afterworld that needs
+cleaning? Let’s make Hell pure again and see
+what other realms await!
+
+<br>
+<br>
+
+It all began with a few words: "Devilish Roomba" and
+"Divine Comedy".
+And thus, the game unfolds in the Nine Circles of Hell,
+drawing inspiration from Dante Alighieri’s vision but
+infused with a modern touch.
+
+<br>
+<br>
+
+The player explores these circles progressively, completing levels along
+the way. You assume the role of Faust, one of the newest damned souls. In
+addition to planning routes for the Rumba, you embark on a personal
+journey, the profundity of which is determined by your choices. While the
+main game can be completed without delving into Faust's story, engaging
+with the dialogues of the damned souls encountered along the way
+reveals hidden richness in the overall experience. You might discover
+how, in the depths of Hell, Virgil’s soul found itself trapped in a broken
+robot and uncover what Faust truly seeks to achieve.
+
 ---
 Unity, Blender, Substance Painter
 ---
-https://github.com/wkromolski/wkromolski.github.io/blob/main/Articles/DantesRumba/DantesRumba_logo.png?raw=true
+https://raw.githubusercontent.com/wkromolski/wkromolski.github.io/refs/heads/main/Projects/DantesRumba/media/DantesRumbaLogoSquare.png
 ---
 DantesRumba.html

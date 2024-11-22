@@ -2,6 +2,12 @@
 # When you add one then productions.js will automatically add it after saving
 # Format: Title, Company, Time, Thumbnail URL, Description 
 ---
+3D Artist
+RPG Game Jam (48h) | Politechnika Poznańska
+15 - 17 November 2024
+https://scontent-waw2-2.xx.fbcdn.net/v/t39.30808-6/301619186_576815284230110_2723428606478077013_n.png?_nc_cat=101&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=AjCUTPMEp8gQ7kNvgH3FuVN&_nc_zt=23&_nc_ht=scontent-waw2-2.xx&_nc_gid=AmfRZyFQMSZEwlS7uOsrWF4&oh=00_AYD9-1o4Tabl1kDuPhFS16jjFpXaTza4eieFf-hW6vIhfA&oe=6743982D
+https://gesal.itch.io/ghosteo-gulia
+---
 3D Artist (Intern)
 eNStudios
 September 2024 - present

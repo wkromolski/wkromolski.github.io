@@ -1,0 +1,21 @@
+Ghosteo & Gulia
+---
+<b> Project Info </b>
+<br>
+Genre: Platformer
+<br>
+Platforms: PC
+<br>
+No of players: Coop - 2 players
+<br>
+Engine: Unity 
+<br>
+<br>
+
+
+---
+Software Tags - separated by commas (marmoset toolbag, unity, UE5, Blender, 3ds Max)
+---
+thumbnail url (gets injected into your landing page) 
+---
+Ghosteo&Gulia.html

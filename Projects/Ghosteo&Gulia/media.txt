@@ -1,16 +1,15 @@
 https://github.com/wkromolski/wkromolski.github.io/raw/refs/heads/main/Projects/Ghosteo&Gulia/media/G&G_Gameplay.mp4
 
-https://example2.jpg
-Description for example2.jpg.
+https://raw.githubusercontent.com/wkromolski/wkromolski.github.io/refs/heads/main/Projects/Ghosteo%26Gulia/media/1-1.png // https://raw.githubusercontent.com/wkromolski/wkromolski.github.io/refs/heads/main/Projects/Ghosteo%26Gulia/media/1-2.png
 
-https://example3.gif
-These aren't real images but need replacing with your own.
+https://raw.githubusercontent.com/wkromolski/wkromolski.github.io/refs/heads/main/Projects/Ghosteo%26Gulia/media/2-1.png // https://raw.githubusercontent.com/wkromolski/wkromolski.github.io/refs/heads/main/Projects/Ghosteo%26Gulia/media/2-2.png
 
-https://examplevideo.mp4
-MP4's are also supported but like with images should be hosted somewhere like dropbox.
+https://raw.githubusercontent.com/wkromolski/wkromolski.github.io/refs/heads/main/Projects/Ghosteo%26Gulia/media/3-1.png // https://raw.githubusercontent.com/wkromolski/wkromolski.github.io/refs/heads/main/Projects/Ghosteo%26Gulia/media/3-2.png
 
-https://beforepic.png // https://afterpic.png
-You can create before and after slider by seperating two urls with ' // ' 
+https://raw.githubusercontent.com/wkromolski/wkromolski.github.io/refs/heads/main/Projects/Ghosteo%26Gulia/media/4-1.png // https://raw.githubusercontent.com/wkromolski/wkromolski.github.io/refs/heads/main/Projects/Ghosteo%26Gulia/media/4-2.png
 
-https://sketchfabexample.com 
-you can also embed sketchfab files by pasting the url, no need for direct embedd urls. 
+https://raw.githubusercontent.com/wkromolski/wkromolski.github.io/refs/heads/main/Projects/Ghosteo%26Gulia/media/5-1.png // https://raw.githubusercontent.com/wkromolski/wkromolski.github.io/refs/heads/main/Projects/Ghosteo%26Gulia/media/5-2.png
+
+https://raw.githubusercontent.com/wkromolski/wkromolski.github.io/refs/heads/main/Projects/Ghosteo%26Gulia/media/6-1.png // https://raw.githubusercontent.com/wkromolski/wkromolski.github.io/refs/heads/main/Projects/Ghosteo%26Gulia/media/6-2.png
+
+https://github.com/wkromolski/wkromolski.github.io/raw/refs/heads/main/Projects/Ghosteo&Gulia/media/ClockHouseAnim.mp4

@@ -15,12 +15,10 @@ Engine: Unity
 ## My role
 
 As a 3D artist for Ghosteo & Gulia, I modelled a variety of obstacle props. Additionaly, I created a bunch of simple animations needed for moving obstacles.
-
+Materials/Shaders were created by Julia "Gesal" Grabska.
 <br>
 <br>
-
 ## About game
-
 Two soulmates were born in the wrong timelines, their love lost in time. Grab your friend and together travel through dangerous times, helping each other to overcome all the difficulties and to finally reunite.
 <br>
 <br>

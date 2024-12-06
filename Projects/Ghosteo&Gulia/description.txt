@@ -6,9 +6,11 @@ Genre: Platformer
 <br>
 Platforms: PC
 <br>
-No of players: Coop - 2 players
+No of players: Co-op - 2 players
 <br>
 Engine: Unity 
+<br>
+itch.io: https://gesal.itch.io/ghosteo-gulia
 <br>
 <br>
 
@@ -22,7 +24,7 @@ Materials/Shaders were created by Julia "Gesal" Grabska.
 Two soulmates were born in the wrong timelines, their love lost in time. Grab your friend and together travel through dangerous times, helping each other to overcome all the difficulties and to finally reunite.
 <br>
 <br>
-The game was created during RPG Game Jam 2024.
+The game was created during 48h RPG Game Jam 2024.
 ---
 Unity, Blender
 ---

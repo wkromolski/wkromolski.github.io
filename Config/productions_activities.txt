@@ -7,6 +7,6 @@ Ghosteo & Gulia | RPG Game Jam (48h) Politechnika Poznańska
 15 - 17 November 2024
 https://scontent-waw2-2.xx.fbcdn.net/v/t39.30808-6/301619186_576815284230110_2723428606478077013_n.png?_nc_cat=101&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=0msKVe77YfMQ7kNvgGDnp8g&_nc_zt=23&_nc_ht=scontent-waw2-2.xx&_nc_gid=AIcBcIfK_R8CreDphoNoW2y&oh=00_AYDZGs3QK-9NPLuwrP2pCfbaISicOPDVPCqBJFhUpLyOvA&oe=6758B02D
 https://gesal.itch.io/ghosteo-gulia
-As a 3D artist for Ghosteo & Gulia, I created a variety of obstacle props. Additionaly, I created a bunch of simple animations needed for moving obstacles.
+As a 3D artist for Ghosteo & Gulia, I modelled a variety of obstacle props. Additionaly, I created a bunch of simple animations needed for moving obstacles.
 ---
 

@@ -1,5 +1,4 @@
-https://example1.png
-Descriptions go under each image like this! png/jpeg/jpg/gif supported.
+https://github.com/wkromolski/wkromolski.github.io/raw/refs/heads/main/Projects/Ghosteo&Gulia/media/G&G_Gameplay.mp4
 
 https://example2.jpg
 Description for example2.jpg.

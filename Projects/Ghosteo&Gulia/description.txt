@@ -1,4 +1,4 @@
-Ghosteo & Gulia
+Ghosteo & Gulia (Game Jam)
 ---
 <b> Project Info </b>
 <br>
@@ -12,10 +12,22 @@ Engine: Unity
 <br>
 <br>
 
+## My role
 
+As a 3D artist for Ghosteo & Gulia, I modelled a variety of obstacle props. Additionaly, I created a bunch of simple animations needed for moving obstacles.
+
+<br>
+<br>
+
+## About game
+
+Two soulmates were born in the wrong timelines, their love lost in time. Grab your friend and together travel through dangerous times, helping each other to overcome all the difficulties and to finally reunite.
+<br>
+<br>
+The game was created during RPG Game Jam 2024.
 ---
-Software Tags - separated by commas (marmoset toolbag, unity, UE5, Blender, 3ds Max)
+Unity, Blender
 ---
-thumbnail url (gets injected into your landing page) 
+https://raw.githubusercontent.com/wkromolski/wkromolski.github.io/refs/heads/main/Projects/Ghosteo%26Gulia/media/G%26G_logo.png
 ---
 Ghosteo&Gulia.html

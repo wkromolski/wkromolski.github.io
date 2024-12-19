@@ -2,11 +2,11 @@
 # When you add one then productions.js will automatically add it after saving
 # Format: Title, Company, Time, Thumbnail URL, Description 
 ---
-3D Artist (Intern)
+3D Artist (Internship)
 eNStudios
 September 2024 - present
 https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSWc2lZ-sPWABnNKkW10JzqPYl9DK-7On6mGg&s
-Format: Title, Company, Time, Thumbnail URL, Descripti Format: Title, Company, Time, Thumbnail URL, Descripti Format: Title, Company, Time, Thumbnail URL, Descripti Format: Title, Company, Time, Thumbnail URL, Descripti Format: Title, Company, Time, Thumbnail URL, Descripti Format: Title, Company, Time, Thumbnail URL, Descripti Format: Title, Company, Time, Thumbnail URL, Descripti  Format: Title, Company, Time, Thumbnail URL, Descripti Format: Title, Company, Time, Thumbnail URL, Descripti Format: Title, Company, Time, Thumbnail URL, Descripti Format: Title, Company, Time, Thumbnail URL, Descripti 
+As a 3D artist in eNStudios, I'm modelling a variety of hardsurface assets.
 ...
 ---
 

@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
-    const thumbnailContainer = document.getElementById('thumbnail-container');
+    const thumbnailContainerA = document.getElementById('thumbnail-containerA');
     const plusButton = document.getElementById('plus-button');
     const minusButton = document.getElementById('minus-button');
 
@@ -47,6 +47,6 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
     function updateThumbnailSize() {
-        thumbnailContainer.style.gridTemplateColumns = `repeat(auto-fill, minmax(${minWidth}px, 1fr))`;
+        thumbnailContainerA.style.gridTemplateColumns = `repeat(auto-fill, minmax(${minWidth}px, 1fr))`;
     }
 });

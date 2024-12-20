@@ -44,12 +44,12 @@
   opacity: 1;
   transition: opacity 0.5s;
   margin-bottom: 10px;
-  margin-top: 5px;
+  margin-top: 10px;
   color: grey !important; 
 }
 
 .social-icons a {
-  color: #272727 !important;
+  color: grey !important;
   font-size: 26px;
   transition: color 0.3s;
 }

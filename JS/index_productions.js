@@ -56,7 +56,7 @@ function createThumbnail(src, alt, galleryPageUrl, hasMultipleImages, hasVideo, 
 }
 
 // Get the thumbnail container element
-const thumbnailContainer = document.getElementById("thumbnail-containerA");
+const thumbnailContainerA = document.getElementById("thumbnail-containerA");
 
 // Function to fetch and parse the description.txt file
 function fetchProjectData(projectName) {
@@ -114,6 +114,6 @@ fetchProjects().then(projects => {
 
     // Once all project data has been fetched and processed, append the fragment to the container
     Promise.all(fetchProjectDataPromises).then(() => {
-        thumbnailContainer.appendChild(fragment);
+        thumbnailContainerA.appendChild(fragment);
     });
 });

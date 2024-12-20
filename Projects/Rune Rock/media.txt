@@ -1,7 +1,7 @@
 RuneRock_render.png
 
 runeshot.mp4
-Turn sound on
+Remember to turn sound on :)
 
 high-low.png
 

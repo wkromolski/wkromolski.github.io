@@ -4,6 +4,6 @@ Project Description
 ---
 Software Tags - separated by commas (marmoset toolbag, unity, UE5, Blender, 3ds Max)
 ---
-thumbnail url (gets injected into your landing page) 
+https://github.com/wkromolski/wkromolski.github.io/blob/main/Projects/PostApocalypticSpear/media/1.png?raw=true
 ---
 PostApocalypticSpear.html

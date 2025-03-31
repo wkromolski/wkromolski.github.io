@@ -18,8 +18,11 @@ Initially production started as a four-person project for academic course purpos
 As time passed, it became a personal activity. 
 We decided to finish it after completing the course and try to publish it. 
 Currently, we are working on Dante’s Rumba as a team of six people.
-
 <br>
+<br>
+
+# We aim to release our game in mid-2025.
+
 <br>
 
 At first, my main focus for this project was creating all the models, as visually coherent as possible, forming the basis for a simple, stylized art style.

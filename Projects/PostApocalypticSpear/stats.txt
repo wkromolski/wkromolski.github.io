@@ -1,8 +1,8 @@
-Triangles: 
+Triangles: 10.852
 
-Materials: 
+Materials: 2
 
-Texture Size: 
+Texture Size: 2048
 
 Texel Density: 
 

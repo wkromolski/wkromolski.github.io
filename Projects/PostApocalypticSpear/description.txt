@@ -1,9 +1,12 @@
-Post Apocalyptic Spear
+Post-Apocalyptic Spear
 ---
-Project Description
+Initially, the idea of the project was just to create a post-apocalyptic knife, but in the middle of the process it transformed into a knife/spear which could be a modular weapon.
+<br>
+<br>
+Additionally, it was the first time I tried to use a non-square format of UVs.
 ---
-Software Tags - separated by commas (marmoset toolbag, unity, UE5, Blender, 3ds Max)
+Blender, ZBrush, Substance Painter, Marmoset Toolbag
 ---
-https://github.com/wkromolski/wkromolski.github.io/blob/main/Projects/PostApocalypticSpear/media/1.png?raw=true
+https://github.com/wkromolski/wkromolski.github.io/blob/main/Projects/PostApocalypticSpear/media/1-square.png?raw=true
 ---
 PostApocalypticSpear.html

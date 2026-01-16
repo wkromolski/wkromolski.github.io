@@ -37,7 +37,8 @@ body {
 
 h1 {
     font-size: 20px;
-    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    margin: 20px;
     margin-bottom: 5px;
     color: white;
     -webkit-user-select: none; /* Safari */
@@ -89,9 +90,9 @@ hr {
 
 .panel-title {
     font-size: 24px;
-    margin-bottom: 10px;
-    color: #d7d7d7;
-    text-align: left; /* Align panel titles to the left */
+    margin-bottom: 30px;
+    color: #FF013F;
+    text-align: center; /* Align panel titles to the left */
 }
 
 p {
@@ -115,7 +116,7 @@ p {
     background-color: inherit;
     border: none;
     color: grey;
-    font-family: 'Poppins', sans-serif;
+    font-family: Montserrat, sans-serif;
     text-decoration: none;
     cursor: pointer;
     padding: 10px;
@@ -127,7 +128,7 @@ p {
 
 .nav-button.active, .nav-button:hover {
     background-color: #171717;
-    color: #f5ba13;
+    color: #FF013F;
 }
 
 @media (max-width: 600px) {

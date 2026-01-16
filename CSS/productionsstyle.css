@@ -7,7 +7,7 @@
 }
 
 .production-subpanel {
-    padding: 10px;
+    padding: 30px;
     background-color: #121212;
     border-radius: 5px;
     width: 65%; /* Adjusts the width to be 80% of the parent container */
@@ -89,7 +89,7 @@
 }
 
 .productions-panel h1 {
-    margin-bottom: 20px;
+    margin-bottom: 50px;
 }
 
 .production-subpanel h2 {

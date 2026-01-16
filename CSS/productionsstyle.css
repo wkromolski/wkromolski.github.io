@@ -12,7 +12,7 @@
     border-radius: 5px;
     width: 65%; /* Adjusts the width to be 80% of the parent container */
     height: auto; /* Adjusts height based on content */
-    max-height: 400px; /* Limits maximum height for consistency */
+    /* max-height: 400px;  <-- ZAKOMENTOWANE: Dłuższe opisy wymagają, aby karta rosła w dół */
     margin-bottom: 20px; /* Space between each card */
     display: flex; /* Enables flexbox layout */
     align-items: flex-start; /* Aligns items to the start vertically */
@@ -32,9 +32,41 @@
     align-items: flex-start; /* Aligns items to the start */
 }
 
+/* --- ZAKTUALIZOWANA SEKCJA OPISU --- */
 .production-description {
     margin-top: 10px; /* Add space between details and description */
+    display: block !important;       /* Wymusza blokowy układ kontenera */
+    width: 100%;
+    white-space: normal;             /* Pozwala na zawijanie tekstu */
 }
+
+/* Nowe style dla akapitów generowanych przez JS */
+.production-description p {
+    display: block !important;       /* Każdy akapit w nowej linii */
+    margin-bottom: 10px;
+    line-height: 1.5;
+    width: 100%;
+    font-size: 16px;
+    color: grey;
+    text-align: left;
+}
+
+/* Nowe style dla list punktowanych (od myślników) */
+.production-description ul {
+    display: block !important;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    padding-left: 25px;              /* Wcięcie dla kropek */
+    list-style-type: disc;           /* Kropki */
+    color: grey;
+    text-align: left;
+}
+
+.production-description li {
+    margin-bottom: 5px;
+    font-size: 16px;
+}
+/* ----------------------------------- */
 
 .production-content {
     flex-grow: 1; /* Allows the description to take remaining space */
@@ -73,6 +105,7 @@
     text-align: left; /* Aligns text to the left */
 }
 
+/* To jest ogólna reguła, ale nasze specyficzne reguły .production-description p powyżej mają pierwszeństwo */
 .production-subpanel p {
     font-size: 16px; /* Font size for the paragraphs */
 }
@@ -89,6 +122,9 @@
         padding: 10px; /* Add padding to ensure content has space */
         background-color: #121212; /* Background color */
         border-radius: 5px; /* Border radius for rounded corners */
+        /* Upewniamy się, że max-height nie przeszkadza też na mobilkach */
+        max-height: none; 
+        height: auto;
     }
 
     .production-subpanel img {
@@ -128,8 +164,8 @@
         font-size: 18px; /* Adjust font size for mobile */
     }
 
-    .production-subpanel p {
+    .production-subpanel p, 
+    .production-description li {
         font-size: 14px; /* Adjust font size for mobile */
     }
 }
-

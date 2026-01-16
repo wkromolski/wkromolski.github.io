@@ -1,12 +1,11 @@
-# Each production should be separated by three dashes (---)
-# When you add one then productions.js will automatically add it after saving
-# Format: Title, Company, Time, Thumbnail URL, Description 
----
 3D Artist (Internship)
 eNStudios
 September 2024 - Present
 https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSWc2lZ-sPWABnNKkW10JzqPYl9DK-7On6mGg&s
-As a 3D artist in eNStudios, I'm modelling a variety of hardsurface assets like props, weapons, etc., needed for certain productions.
-.
+Pracując w eNStudios zajmowałem się wieloma zadaniami.
+Główne obowiązki:
+- Modelowanie assetów hardsurface
+- Teksturowanie broni i rekwizytów
+- Optymalizacja modeli pod silnik gry
+To było świetne doświadczenie, które nauczyło mnie pracy w zespole.
 ---
-

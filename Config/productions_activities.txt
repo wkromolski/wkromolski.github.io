@@ -1,12 +1,15 @@
-# Each production should be separated by three dashes (---)
-# When you add one then productions.js will automatically add it after saving
-# Format: Title, Company, Time, Thumbnail URL, Description 
+Volunteer
+Game Industry Conference (GIC) | Poznań
+23-26 October 2025
+https://media.licdn.com/dms/image/v2/D4D22AQECqPYE1WFVlQ/feedshare-shrink_1280/B4DZor6ZocIAAs-/0/1761673327907?e=1770249600&v=beta&t=ieNdwkdIPc4okEPua4INgtRkoBcfdcS0N1y4c9Bz5mg
+...
 ---
 3D Artist
 Ghosteo & Gulia | RPG Game Jam (48h) Politechnika Poznańska
 15 - 17 November 2024
 https://raw.githubusercontent.com/wkromolski/wkromolski.github.io/refs/heads/main/Resources/ProductionActivitiesImages/RPG_logo.png
 https://gesal.itch.io/ghosteo-gulia
+lalalal
 As a 3D artist for Ghosteo & Gulia, I modelled a variety of obstacle props. Additionaly, I created a bunch of simple animations needed for moving obstacles. More about the project in Portfolio (Productions) tab.
+blelvlel
 ---
-

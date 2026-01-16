@@ -1,57 +1,84 @@
-function createProductionCard(title, company, time, thumbnail, description, descriptionExtra) {
+/**
+ * Funkcja tworząca kartę produkcji.
+ * descriptionLines - tablica ciągów znaków (reszta linii z pliku tekstowego)
+ */
+function createProductionCard(title, company, time, thumbnail, descriptionLines) {
     const card = document.createElement("div");
-    card.classList.add("activities-subpanel");
+    card.classList.add("production-subpanel");
 
     const img = document.createElement("img");
     img.src = thumbnail;
     img.alt = title;
 
     const detailsDiv = document.createElement("div");
-    detailsDiv.classList.add("activities-details");
+    detailsDiv.classList.add("production-details");
 
     const titleElem = document.createElement("h2");
     titleElem.textContent = title;
 
     const companyElem = document.createElement("p");
     companyElem.textContent = company;
-    companyElem.style.fontWeight = "bold"; // Inline style for bold text
+    companyElem.style.fontWeight = "bold";
 
     const timeElem = document.createElement("p");
     timeElem.textContent = time;
-    timeElem.style.fontStyle = "italic"; // Inline style for italic text
+    timeElem.style.fontStyle = "italic";
 
-    // Append text elements to the detailsDiv
+    // Dodajemy elementy nagłówka do detailsDiv
     detailsDiv.appendChild(titleElem);
     detailsDiv.appendChild(companyElem);
     detailsDiv.appendChild(timeElem);
 
-    // Create a new div for the description
+    // --- Tworzenie sekcji opisu z obsługą akapitów i list ---
     const descDiv = document.createElement("div");
-    descDiv.classList.add("activities-description");
-    const descElem = document.createElement("p");
-    descElem.textContent = description;
+    descDiv.classList.add("production-description");
 
-    // Create an additional paragraph for descriptionExtra
-    const descExtraElem = document.createElement("p");
-    descExtraElem.textContent = descriptionExtra;
+    let currentUl = null; // Zmienna pomocnicza do grupowania punktów listy
 
-    descDiv.appendChild(descElem);
-    descDiv.appendChild(descExtraElem);
+    descriptionLines.forEach(line => {
+        const trimmedLine = line.trim();
 
-    // Create a container for the details and description
+        if (trimmedLine.startsWith('-')) {
+            // Jeśli linia zaczyna się od myślnika, traktujemy to jako element listy
+            if (!currentUl) {
+                currentUl = document.createElement("ul");
+                // Opcjonalnie: stylizacja listy, jeśli nie masz tego w CSS
+                // currentUl.style.paddingLeft = "20px";
+                // currentUl.style.marginTop = "5px";
+                // currentUl.style.marginBottom = "10px";
+                descDiv.appendChild(currentUl);
+            }
+            
+            const li = document.createElement("li");
+            // Usuwamy myślnik z początku i spacje
+            li.textContent = trimmedLine.substring(1).trim(); 
+            currentUl.appendChild(li);
+
+        } else {
+            // Jeśli to zwykły tekst (nie myślnik), zamykamy poprzednią listę (null)
+            currentUl = null; 
+            
+            const p = document.createElement("p");
+            p.textContent = trimmedLine;
+            // Opcjonalnie: drobny odstęp między akapitami
+            // p.style.marginBottom = "8px"; 
+            descDiv.appendChild(p);
+        }
+    });
+
     const contentContainer = document.createElement("div");
-    contentContainer.classList.add("activities-content");
+    contentContainer.classList.add("production-content");
     contentContainer.appendChild(detailsDiv);
     contentContainer.appendChild(descDiv);
 
-    // Append img and contentContainer to the main card
+    // Łączenie całości w kartę
     card.appendChild(img);
     card.appendChild(contentContainer);
 
     return card;
 }
 
-// Fetch and append production cards on DOM content load
+// Pobieranie i dodawanie kart po załadowaniu DOM
 document.addEventListener("DOMContentLoaded", async () => {
     const productionsContainer = document.querySelector(".activities-subpanels");
     if (!productionsContainer) {
@@ -65,17 +92,31 @@ document.addEventListener("DOMContentLoaded", async () => {
             throw new Error(`Network response was not ok: ${response.statusText}`);
         }
         const text = await response.text();
+        // Dzielimy na bloki oddzielone "---"
         const productions = text.split('---').map(prod => prod.trim()).filter(prod => prod);
 
         const fragment = document.createDocumentFragment();
 
         productions.forEach((prod, index) => {
-            const lines = prod.split('\n').map(line => line.trim()).filter(line => line && !line.startsWith('#'));
-            if (lines.length === 6) {
-                const card = createProductionCard(lines[0], lines[1], lines[2], lines[3], lines[4], lines[5]);
+            // Dzielimy na linie, usuwamy puste oraz komentarze (zaczynające się od #)
+            const lines = prod.split('\n')
+                .map(line => line.trim())
+                .filter(line => line && !line.startsWith('#'));
+
+            // Wymagamy minimum 4 linii: Tytuł, Firma, Czas, URL
+            if (lines.length >= 4) {
+                const title = lines[0];
+                const company = lines[1];
+                const time = lines[2];
+                const thumbnail = lines[3];
+                
+                // Wszystkie linie od indeksu 4 w górę to treść opisu
+                const descriptionBody = lines.slice(4);
+
+                const card = createProductionCard(title, company, time, thumbnail, descriptionBody);
                 fragment.appendChild(card);
             } else {
-                console.error(`Invalid production data format at index ${index}:`, lines);
+                console.error(`Invalid production data format at index ${index}. Expected at least 4 lines.`, lines);
             }
         });
 

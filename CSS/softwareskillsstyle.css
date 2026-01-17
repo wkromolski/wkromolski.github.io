@@ -46,3 +46,32 @@
 hr {
     opacity: .05;
 }
+
+
+/*GEMINI
+/* Dodatkowe style dla tagów z ikonami */
+.software-tag {
+    /* Upewnij się, że tag jest flex-containerem, aby wyrównać ikonę i tekst */
+    display: inline-flex;
+    align-items: center; 
+    gap: 8px; /* Odstęp między ikoną a tekstem */
+    
+    /* Istniejące style z twojego pliku */
+    background-color: #2d2d2d;
+    color: lightgray;
+    padding: 10px;
+    border-radius: .25em;
+    font-size: 14px;
+    white-space: nowrap;
+}
+
+/* Stylizacja samej ikony */
+.software-icon {
+    width: 20px; /* Dostosuj wielkość ikony */
+    height: 20px;
+    object-fit: contain;
+
+}
+
+
+

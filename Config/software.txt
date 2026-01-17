@@ -1,6 +1,5 @@
 Blender
-3ds Max
-Affinity Designer
+Affinity
 Substance 3D Painter
 Marmoset Toolbag
 Unity

@@ -1,6 +1,21 @@
 document.addEventListener('DOMContentLoaded', () => {
     let projects = [];
 
+    // 1. ZDEFINIUJ IKONY TUTAJ
+    // Klucze muszą odpowiadać nazwom w pliku description.txt (np. "Substance 3D Painter")
+    // Ścieżki zakładają, że plik html projektu jest w podfolderze, a ikony w Resources/Icons
+    const softwareIcons = {
+        "Blender": "../../Resources/Icons/blender.png",
+        "ZBrush": "../../Resources/Icons/zbrush.png",
+        "3ds Max": "../../Resources/Icons/3dsmax.png",
+        "Substance 3D Painter": "../../Resources/Icons/substancepainter.png",
+        "Marmoset Toolbag": "../../Resources/Icons/marmoset.png",
+        "Unity": "../../Resources/Icons/unity.png",
+        "Unreal Engine 5": "../../Resources/Icons/unreal.png",
+        "Affinity Designer": "../../Resources/Icons/affinity.png",
+        "Photoshop": "../../Resources/Icons/photoshop.png" 
+    };
+
     const fetchProjects = async () => {
         try {
             const response = await fetch('../../Config/projects.txt');
@@ -15,13 +30,15 @@ document.addEventListener('DOMContentLoaded', () => {
         try {
             const response = await fetch('description.txt');
             const text = await response.text();
+            // Rozdzielamy sekcje pliku description.txt
             const [title, description, tags] = text.split('---').map(line => line.trim());
+            
             document.getElementById('project-title').textContent = title;
-            document.title = title; // Set the document title as well
+            document.title = title;
     
-            // Convert markdown headings to HTML
             const formattedDescription = convertUrlsToLinks(processHeadings(description));
     
+            // Logika "Read More" dla długich opisów
             if (description.length > 420) {
                 const shortDescription = formattedDescription.substring(0, 420);
                 document.getElementById('project-description').innerHTML = `${shortDescription}<span id="ellipsis">...</span><span id="full-description" style="display: none;">${formattedDescription.substring(420)}</span><br><span id="toggle-description">Read More</span>`;
@@ -39,13 +56,13 @@ document.addEventListener('DOMContentLoaded', () => {
                 document.getElementById('project-description').innerHTML = formattedDescription;
             }
     
+            // Wywołanie funkcji renderującej tagi (z ikonami)
             renderTags(tags);
         } catch (error) {
             console.error('Error loading project description:', error);
         }
     };
     
-    // Function to process markdown-style headers
     const processHeadings = (text) => {
         return text.split('\n').map(line => {
             if (line.startsWith('### ')) {
@@ -58,10 +75,8 @@ document.addEventListener('DOMContentLoaded', () => {
                 return line;
             }
         }).join(' ');
-        
     };
     
-
     const convertUrlsToLinks = (text) => {
         const urlPattern = /(\b(https?|ftp|file):\/\/[-A-Z0-9+&@#\/%?=~_|!:,.;]*[-A-Z0-9+&@#\/%=~_|])/gi;
         return text.replace(urlPattern, (url) => {
@@ -70,13 +85,38 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     };
     
-
+    // ZMODYFIKOWANA FUNKCJA RENDERUJĄCA TAGI
     const renderTags = (tags) => {
         const tagsContainer = document.getElementById('project-tags');
+        
+        // Czyścimy kontener na wszelki wypadek
+        tagsContainer.innerHTML = '';
+
+        if (!tags) return;
+
         tags.split(',').map(tag => tag.trim()).forEach(tag => {
             const tagElement = document.createElement('div');
             tagElement.className = 'software-tag';
-            tagElement.textContent = tag;
+
+            // Sprawdzamy czy mamy ikonę dla tego programu
+            if (softwareIcons[tag]) {
+                const img = document.createElement('img');
+                img.src = softwareIcons[tag];
+                img.alt = tag;
+                img.className = 'software-icon'; // Klasa zdefiniowana w CSS
+                
+                // Obsługa błędu ładowania obrazka (opcjonalne)
+                img.onerror = function() { 
+                    this.style.display = 'none'; 
+                };
+
+                tagElement.appendChild(img);
+            }
+
+            // Dodajemy tekst
+            const textNode = document.createTextNode(tag);
+            tagElement.appendChild(textNode);
+            
             tagsContainer.appendChild(tagElement);
         });
     };
@@ -96,18 +136,15 @@ document.addEventListener('DOMContentLoaded', () => {
                 let description = '';
                 let urls = [lines[i]];
 
-                // Check if the next line is a description
                 if (i + 1 < lines.length && !lines[i + 1].match(/\.(jpeg|jpg|gif|png|mp4|webm|mview)$/) && !lines[i + 1].includes('youtube.com') && !lines[i + 1].includes('sketchfab.com') && !lines[i + 1].includes(' // ')) {
                     description = lines[i + 1];
                     i += 1;
                 }
 
-                // Check if the line contains a pair of images
                 if (lines[i].includes(' // ')) {
                     urls = lines[i].split(' // ').map(url => url.trim());
                 }
 
-                // Adjust URLs for relative paths
                 urls = urls.map(url => (url.startsWith('http') ? url : basePath + url));
 
                 if (description.includes('(marmoset viewer)')) {
@@ -132,7 +169,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const iframe = document.createElement('iframe');
         iframe.src = url;
         iframe.allow = 'autoplay; fullscreen';
-        iframe.setAttribute('allowfullscreen', ''); // Ensure allowfullscreen is set correctly
+        iframe.setAttribute('allowfullscreen', '');
         iframe.title = 'Marmoset Viewer';
 
         mediaElement.appendChild(iframe);
@@ -200,7 +237,7 @@ document.addEventListener('DOMContentLoaded', () => {
             slider.addEventListener('input', () => {
                 const value = slider.value;
                 imgElement2.style.clipPath = `inset(0 0 0 ${value}%)`;
-                sliderLine.style.left = `calc(${value}% - 1px)`; // Ensure the line is aligned with the thumb
+                sliderLine.style.left = `calc(${value}% - 1px)`;
             });
 
             sliderContainer.appendChild(sliderLine);
@@ -315,7 +352,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     if (info) {
                         const infoIcon = document.createElement('i');
                         infoIcon.className = 'fa-solid fa-circle-info stat-info-icon';
-                        infoIcon.removeAttribute('title');  // Remove the title attribute to avoid default tooltip
+                        infoIcon.removeAttribute('title');
 
                         const tooltip = document.createElement('div');
                         tooltip.className = 'tooltip';
@@ -379,7 +416,7 @@ document.addEventListener('DOMContentLoaded', () => {
             try {
                 const response = await fetch(`../${newProject}/description.txt`);
                 const text = await response.text();
-                const htmlFileName = text.split('---')[4].trim(); // Extract the HTML filename from the description.txt
+                const htmlFileName = text.split('---')[4].trim(); 
                 window.location.href = `../${newProject}/${htmlFileName}`;
             } catch (error) {
                 console.error('Error loading next project description:', error);
@@ -387,9 +424,7 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     };
 
-    // Back to Top Button Functionality
     const backToTopButton = document.getElementById('back-to-top');
-
     const mediaContainer = document.querySelector('.media-container');
     mediaContainer.addEventListener('scroll', () => {
         backToTopButton.style.display = mediaContainer.scrollTop > 1000 ? 'block' : 'none';
@@ -399,7 +434,6 @@ document.addEventListener('DOMContentLoaded', () => {
         mediaContainer.scrollTo({ top: 0, behavior: 'smooth' });
     });
 
-    // Keyboard navigation
     document.addEventListener('keydown', (event) => {
         if (event.key === 'Escape') {
             window.location.href = '../../index.html';
@@ -414,14 +448,13 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     });
 
-    // Initialize the app
     const init = async () => {
         projects = await fetchProjects();
         document.getElementById('prev-project').addEventListener('click', () => navigateProjects(-1));
         document.getElementById('next-project').addEventListener('click', () => navigateProjects(1));
         await fetchDescription();
         await loadMedia();
-        await fetchStats(); // Fetch and display the stats
+        await fetchStats(); 
     };
 
     init();

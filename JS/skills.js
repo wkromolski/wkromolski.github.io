@@ -6,8 +6,10 @@ function addSkillsAndSoftware() {
     // Upewnij się, że klucze (np. "Blender") są identyczne jak w pliku software.txt
     const softwareIcons = {
         "Blender": "../Resources/Icons/blender.png",
-        /* "3ds Max": "../Resources/Icons/3dsmax.svg", */
+        "ZBrush": "../../Resources/Icons/zbrush.png",
+        "3ds Max": "../Resources/Icons/3dsmax.svg",
         "Affinity": "../Resources/Icons/affinity.png",
+        "Photoshop": "../../Resources/Icons/photoshop.png",
         "Substance 3D Painter": "../Resources/Icons/substancepainter.png",
         "Marmoset Toolbag": "../Resources/Icons/marmoset.png",
         "Unity": "../Resources/Icons/unity.png",

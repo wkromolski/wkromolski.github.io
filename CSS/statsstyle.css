@@ -35,7 +35,7 @@
 }
 
 .stat-info-icon:hover {
-  color: #f5ba13;
+  color: #FF013F;
 }
 
 .tooltip {
@@ -60,4 +60,27 @@
   border-width: 5px;
   border-style: solid;
   border-color: #333 transparent transparent transparent;
+}
+
+/*GEMINI
+/* Stylizacja kontenera tagu */
+.software-tag {
+    display: inline-flex;       /* Ustawienie w linii */
+    align-items: center;        /* Wyrównanie w pionie */
+    gap: 8px;                   /* Odstęp między ikoną a tekstem */
+    background-color: #2d2d2d;
+    color: lightgray;
+    padding: 5px 10px;          /* Trochę mniejszy padding, bo ikona dodaje objętości */
+    border-radius: .25em;
+    font-size: 14px;
+    white-space: nowrap;
+    margin-right: 5px;          /* Odstęp między kolejnymi tagami */
+    margin-bottom: 5px;
+}
+
+/* Stylizacja samej ikony */
+.software-icon {
+    width: 20px;                /* Stała szerokość */
+    height: 20px;               /* Stała wysokość */
+    object-fit: contain;        /* Skalowanie bez zniekształceń */
 }

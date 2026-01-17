@@ -81,7 +81,7 @@ how, in the depths of Hell, Virgil’s soul found itself trapped in a broken
 robot and uncover what Faust truly seeks to achieve.
 
 ---
-Unity, Blender, Substance Painter
+Unity, Blender, Substance 3D Painter
 ---
 https://raw.githubusercontent.com/wkromolski/wkromolski.github.io/refs/heads/main/Projects/DantesRumba/media/DantesRumbaLogoSquare.png
 ---

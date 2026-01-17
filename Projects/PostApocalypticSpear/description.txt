@@ -5,7 +5,7 @@ Initially, the idea of the project was just to create a post-apocalyptic knife, 
 <br>
 Additionally, it was the first time I tried to use a non-square format of UVs.
 ---
-Blender, ZBrush, Substance Painter, Marmoset Toolbag
+Blender, ZBrush, Substance 3D Painter, Marmoset Toolbag
 ---
 https://github.com/wkromolski/wkromolski.github.io/blob/main/Projects/PostApocalypticSpear/media/1-square.png?raw=true
 ---

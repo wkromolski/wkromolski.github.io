@@ -10,4 +10,4 @@ Workflow:
 
 Target Engine: 
 
-Collaborators:Laura Robińska, V Majewska, Julia Sekretarczyk, Martyna Kosmaczewska, Julia Grabska, Sigmestio Skólska
+Collaborators: Laura Robińska, V Majewska, Julia Sekretarczyk, Martyna Kosmaczewska, Julia Grabska, Sigmestio Skólska

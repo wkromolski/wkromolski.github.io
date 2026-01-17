@@ -118,13 +118,13 @@ h3 {
   color: white;
   -webkit-user-select: none; /* Standard property */
   user-select: none; /* Safari and iOS support */
-  color: #d7d7d7;
+  color: white;
   font-weight: 400;
 }
 
 .project-description-container h2 {
   font-size: 16px;
-  color: #edb049;
+  color: #d7d7d7;
 }
 
 .project-description-container p {
@@ -180,8 +180,8 @@ hr {
 
 .link-button {
   display: inline-block;
-    color: rgb(20, 20, 20);
-    background-color: #4d779f;
+    color: rgb(255, 255, 255);
+    background-color: #272727;
     padding: 0 10px;
     border-radius: 2px;
     cursor: pointer;
@@ -194,7 +194,7 @@ hr {
 
 .link-button:hover {
   opacity: 1;
-  color: #f5ba13;
+  color: #FF013F;
   background-color: #272727;
 }
 

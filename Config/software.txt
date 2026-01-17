@@ -1,4 +1,5 @@
 Blender
+ZBrush
 Affinity
 Substance 3D Painter
 Marmoset Toolbag

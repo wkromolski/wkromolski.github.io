@@ -310,7 +310,9 @@ document.addEventListener('DOMContentLoaded', () => {
                 'Texel Density': 'square_foot',
                 'Target Engine': 'gamepad',
                 'Workflow': 'brush',
-                'Collaborators': 'groups'
+                'Collaborators': 'groups',
+                'Time': 'timer'
+                
             };
 
             const iconClassMap = {
@@ -320,7 +322,9 @@ document.addEventListener('DOMContentLoaded', () => {
                 'Texel Density': 'td-icon',
                 'Target Engine': 'engine-icon',
                 'Workflow': 'workflow-icon',
-                'Collaborators': 'collab-icon'
+                'Collaborators': 'collab-icon',
+                'Time': 'time-icon'
+                
             };
 
             lines.forEach(line => {

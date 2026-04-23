@@ -1,5 +1,10 @@
-Dante_s_RUMBA_trailer.mp4
-dante1.jpg
+https://github.com/wkromolski/wkromolski.github.io/raw/be79afd3207c05fa56630154995d8990a6e474cd/Projects/DantesRumba/media/New/Dante_s_RUMBA_trailer.mp4
+Remember to turn audio on!
+
+https://raw.githubusercontent.com/wkromolski/wkromolski.github.io/be79afd3207c05fa56630154995d8990a6e474cd/Projects/DantesRumba/media/New/image.png
+https://raw.githubusercontent.com/wkromolski/wkromolski.github.io/be79afd3207c05fa56630154995d8990a6e474cd/Projects/DantesRumba/media/New/dante1.jpg
+https://raw.githubusercontent.com/wkromolski/wkromolski.github.io/be79afd3207c05fa56630154995d8990a6e474cd/Projects/DantesRumba/media/New/dante8.jpg
+
 
 
 https://github.com/wkromolski/wkromolski.github.io/raw/refs/heads/main/Articles/DantesRumba/rumbatrailer.mp4

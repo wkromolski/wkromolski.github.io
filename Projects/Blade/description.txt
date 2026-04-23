@@ -4,6 +4,6 @@ Project Description
 ---
 Software Tags - separated by commas (marmoset toolbag, unity, UE5, Blender, 3ds Max)
 ---
-thumbnail url (gets injected into your landing page) 
+https://github.com/wkromolski/wkromolski.github.io/blob/d8f717ee37fbf4b59e6c8b242203ae7fe4aedf36/Projects/Blade/main.png?raw=true
 ---
 Blade.html

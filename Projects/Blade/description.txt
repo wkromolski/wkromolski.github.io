@@ -4,6 +4,6 @@ Project Description
 ---
 Blender, Substance 3D Painter, Marmoset Toolbag
 ---
-https://github.com/wkromolski/wkromolski.github.io/blob/bcf3f09b8931ae3221e6253f257f511ba065e041/Projects/Blade/main2.jpg?raw=true
+https://raw.githubusercontent.com/wkromolski/wkromolski.github.io/f9a246095eccad6a9150329747a3b08ede2f2f4b/Projects/Blade/MainShot.jpg
 ---
 Blade.html

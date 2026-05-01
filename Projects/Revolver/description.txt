@@ -4,6 +4,6 @@ Project Description
 ---
 Blender, Substance 3D Painter, Marmoset Toolbag
 ---
-https://raw.githubusercontent.com/wkromolski/wkromolski.github.io/27a20e64faac1eafc59577339605ab99aa554023/Projects/Revolver/MainShot.png
+https://raw.githubusercontent.com/wkromolski/wkromolski.github.io/9b07557b4f738fd07e35b43421901e3bdce0c312/Projects/Revolver/MainShot2.png
 ---
 Revolver.html

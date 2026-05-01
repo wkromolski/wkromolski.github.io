@@ -1,4 +1,4 @@
-https://github.com/wkromolski/wkromolski.github.io/blob/main/Resources/ProfilePic/profilepic_2.jpg?raw=true
+https://raw.githubusercontent.com/wkromolski/wkromolski.github.io/564594bdebf36b24d135d591d03bdf4de66dce52/Resources/ProfilePic/profilepic_2.png
 Wojciech Kromólski
 3D Artist
 Poznań, Poland

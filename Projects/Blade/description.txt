@@ -1,8 +1,8 @@
-Blade
+Delter Machete
 ---
 Project Description
 ---
-Software Tags - separated by commas (marmoset toolbag, unity, UE5, Blender, 3ds Max)
+Blender, Substance 3D Painter, Marmoset Toolbag
 ---
 https://github.com/wkromolski/wkromolski.github.io/blob/bcf3f09b8931ae3221e6253f257f511ba065e041/Projects/Blade/main2.jpg?raw=true
 ---

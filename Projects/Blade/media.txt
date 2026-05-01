@@ -1,2 +1,15 @@
-main2.jpg
-main.png
+AllSkins.png
+All variants
+Blade_Default.jpg
+Original variant from Dead Island 2 
+Blade_OnTable.jpg
+Blade_Fade.jpg
+Fade variant
+Blade_Forge.jpg
+Forge variant
+Blade_Gold.jpg
+Gold variant
+Blade_Rambo.jpg
+Rambo variant
+Blade_Skulls.jpg
+Skulls variant
